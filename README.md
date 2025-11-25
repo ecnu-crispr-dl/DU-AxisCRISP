@@ -6,8 +6,11 @@
 
 ---
 
-## ⚡ 快速使用
 
+## 数据集
+
+
+## ⚡ 快速使用
 ```bash
 # 1. 创建环境
 conda env create -f environment.yml
@@ -33,6 +36,7 @@ DU-AxisCRISP/
 │   ├── test_new2.pkl             # 测试数据（FORECasT）
 │   ├── dele_indels_sorted.pkl    # 删除Indel定义列表
 │   └── 0105-mESC-Lib1-Cas9-Tol2-BioRep2-techrep1.pkl  # 测试数据（inDelphi）
+│   └── 数据集.zip  #数据压缩文件，解压即可
 │
 ├── src/                          # 源代码
 │   ├── common_def.py             # 通用定义、配置和工具函数
